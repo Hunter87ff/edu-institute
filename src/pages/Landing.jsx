@@ -55,7 +55,7 @@ const Landing = () => {
         </div>
         <div className="hidden md:block">
           <img 
-            src="https://img.freepik.com/free-vector/college-building-educational-institution-banner_1441-3616.jpg?t=st=1733243088~exp=1733246688~hmac=74fecf1763aeb4bb5045f9cddf71adcd96db29b684620b335eb6719382f28849&w=1480" 
+            src="./campus.jpg" 
             alt="Campus" 
             className="rounded-lg shadow-xl"
           />
