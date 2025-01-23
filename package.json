@@ -8,7 +8,9 @@
     "dev": "vite --host --port 3000",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy" : "vite build && cd server && pm2 start app.js",
+    "install" : "npm install vite pm2 -g && npm install"
   },
   "dependencies": {
     "express": "^4.21.1",
