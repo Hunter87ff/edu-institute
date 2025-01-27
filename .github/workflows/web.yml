@@ -18,7 +18,7 @@ jobs:
           node-version: 18 # or your preferred Node.js version
 
       - name: Install dependencies
-        run: npm ci # or yarn install if you use Yarn
+        run: npm i && npm install vite -g # or yarn install if you use Yarn
 
       - name: Build with Vite
         run: npm run build # or yarn build
