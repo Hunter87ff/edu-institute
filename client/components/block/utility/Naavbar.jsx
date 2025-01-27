@@ -46,7 +46,7 @@ const NaavBar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           {/* <GraduationCap className="text-blue-600" size={30} /> */}
-            <LazyImage src="./img/logo.jpg" placeholder="./img/logo.jpg" alt="Logo" className="h-10 w-10" title="Maitree Model Mission" />
+            <LazyImage src="/img/logo.jpg" placeholder="./img/logo.jpg" alt="Logo" className="h-10 w-10" title="Maitree Model Mission" />
             <Link className="text-xl font-bold text-blue-800 hover:text-blue-500" to={"/"}>Maitree Model Mission</Link>
 
         </div>
