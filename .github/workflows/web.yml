@@ -27,7 +27,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist # Vite's default build output directory is 'dist'
-          branch: main
+          branch: gh-page
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
