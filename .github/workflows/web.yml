@@ -15,10 +15,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18 # or your preferred Node.js version
+          node-version: 20 # or your preferred Node.js version
 
       - name: Install dependencies
-        run: npm i && npm install vite -g # or yarn install if you use Yarn
+        run: npm install vite && npm i # or yarn install if you use Yarn
 
       - name: Build with Vite
         run: npm run build # or yarn build
